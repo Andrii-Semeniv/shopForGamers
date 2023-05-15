@@ -5,7 +5,6 @@
     menu: document.querySelector('[data-modal]'),
     body: document.querySelector('body'),
   };
-
   refs.openOrderBtn.addEventListener('click', toggleMenu);
   refs.closeOrderBtn.addEventListener('click', toggleMenu);
 
